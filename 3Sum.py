@@ -22,7 +22,7 @@ class Solution(object):
                 else:
                     result.append([nums[i], nums[left], nums[right]])
 
-                    # move both pointers
+                    # move both pointer
                     left += 1
                     right -= 1
 
